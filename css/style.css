@@ -1,0 +1,155 @@
+ body{
+    background: bisque;
+    margin: 0;
+} 
+
+.link-title {
+    text-decoration: none;
+    font-size: 24px;
+    color: #444;
+}
+
+.container {
+    width: 780px;
+    margin: 0 auto; /*0 =top and buttom auto =right and left*/
+    background: white;
+}
+
+.header{
+    padding: 45px 0 20px 40px;
+   
+}
+
+.menu{
+    background: #680b4d;
+    padding: 6px 0 6px 40px;
+}
+
+.menu a{
+    color: #29B6F6;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a:hover {
+    color: #F4511E;
+}
+
+aside {
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}
+
+h1{
+    margin: 0px;
+    color: rgb(141, 164, 60);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    color: #f26113;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+}
+
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #444;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+
+}
+
+.main a:hover{
+    color: #c0307a;
+}
+
+#home-image image{
+    width: 100%;
+}
+
+footer {
+    padding: 6px 40px 6px 40px;
+    background: #6d6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #444;
+    font-size: 11px;
+    text-decoration: right;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.separator {
+    color: wheat;
+    font-size: 11px;
+}
+
+
+/*About Page*/
+
+#about-page #home-image img {
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+
+#about-page #profile-info {
+   
+    float: right;
+    width: 20%;
+    margin: 5px;
+
+    
+}
+
+#about-page .description {
+    clear: both;
+}
+
+/*Contact*/
+
+#contact #form {
+    width: 500px;
+    border: 2px solid black; 
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 5px 10px;
+}
+
+#contact .page-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact #form input{
+    width: 100%;
+    border-radius: 5px; 
+    background: #d486ae;
+    height: 20px;
+}
+
+#contact #form #message{
+    width: 100%;
+    border-radius: 5px; 
+    background: #d486ae;
+    
+}
+
+#contact #form #submit {
+    background-color: #680b4d;
+    width: 100%;
+    height: 35px
+}
